@@ -1,0 +1,330 @@
+h1,h2,h3{
+    font-weight: normal;
+}
+.ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a.current{
+    background-color: #0489e8;
+}
+.phcolor{ 
+    color:#999;
+    font-family: '微软雅黑';
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+    color: #999;
+}
+input::-moz-placeholder,textarea::-moz-placeholder,input:-moz-placeholder,textarea:-moz-placeholder{
+    color: #999;
+    opacity: 1;
+}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{
+    color: #999;
+}
+
+.right{
+    float: right;
+}
+i{
+    font-style: normal;
+}
+.w-1200,.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.operate-btn{
+    background-color:  #00A3FE;
+    color: #fff;
+}
+.operate-btn:hover{
+    background-color: #0489E8 ;
+    color: #fff;
+}
+.top-nav {
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+}
+.top-nav a{
+    color: #666;
+}
+.top-nav>li{
+    float: left;
+    color: #666;
+    margin-right: 8px;
+}
+.top-nav>li:last-child a{
+    color: #999;
+    cursor: default;
+}
+.top-nav li span {
+    margin: 0 5px;
+}
+/*头部与职易网共用的*/
+.header {
+    padding: 10px 0;
+    background-color: #fff;
+   /* box-shadow: 1.5px 2px 9px 0 rgba(0, 0, 0, 0.054);*/
+}
+.header .navbar-brand {
+    display: block;
+    height: 50px;
+    padding: 15px 10px 15px 0px;
+}
+.topheader{
+    height: 80px;
+}
+.user-nav .nav {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+.header .index-nav.nav{
+    margin-left: 20px;
+}
+.user-nav .nav-login {
+    display: inline-block;
+    vertical-align: middle;
+}
+.user-nav .nav>li {
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    vertical-align: middle;
+}
+.user-nav .nav>li .lz {
+    padding: 0px 10px;
+    color: #0489e8;
+    font-size: 16px;
+}
+.user-nav .nav>li:last-child .lz{
+    padding-right: 0;
+}
+.zy-search {
+    height: 30px;
+    border-width: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.zy-search .form-group {
+    background-color: #eee;
+    border: transparent;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -ms-border-radius: 50px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    width: 190px;
+    height: 100%;
+    line-height: 30px;
+    position: relative;
+    margin-right: 20px;
+}
+.zy-search .form-control {
+    background: transparent;
+    border: transparent;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -ms-border-radius: 50px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    height: 30px;
+    padding-left: 12px;
+}
+.zy-search .button {
+    color: #0489e8;
+    display: inline-block;
+    padding: 0px 12px;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0 none;
+    background-color: transparent;
+    outline: none;
+}
+/* footer 开始 */
+.SJ-footer{
+     background: #2a2a2f;
+}
+.footer {
+    padding: 40px 0;
+    color: #fff;
+    line-height: 52px;
+}
+.footer .col-xs-4{
+    width: 400px;
+    float: left;
+}
+.footer .about {
+    line-height: 24px;
+}
+.footer .about .ab-link {
+    color: #fff;
+}
+.footer .about .ab-link a {
+    color: #fff;
+    padding: 0 8px;
+}
+.footer .about .ab-link a:hover{
+    color: #0489e8;
+}
+.footer .about .ab-wblink {
+    margin: 6px 0 0 6px;
+    font-size: 0;
+}
+.footer .about .ab-wblink a {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    color: #2a2a2f;
+    margin-right: 6px;
+}
+
+/*加的微信扫码层go*/
+.footer .about .ab-wblink a.follow-weixin {
+    position: relative;
+}
+.footer .about .ab-wblink a.follow-weixin:hover .saoCode-box {
+    display: block;
+}
+.ab-wblink a.follow-weixin>div.saoCode-box {
+    position: absolute;
+    padding: 10px;
+    background: #fff;
+    bottom: 38px;
+    left: -50px;
+    text-align: center;
+    display: none;
+    z-index: 999;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    box-shadow: 0px 1px 10px rgba(81,81,81,.2);
+}
+.ab-wblink a.follow-weixin>div.saoCode-box img {
+    width: 118px;
+    height: 118px;
+    margin-bottom: 4px;
+}
+.ab-wblink a.follow-weixin>div.saoCode-box span {
+    font-size: 12px;
+    display: block;
+    line-height: 16px;
+    color: #666;
+}
+.ab-wblink a.follow-weixin>div.saoCode-box .arrow-box {
+    position: absolute;
+    bottom: -12px;
+    left: 56px;
+    width: 4px;
+    height: 0;
+    border: 6px solid #fff;
+    border-right-color: #2a2a2f;
+    border-left-color: #2a2a2f;
+    border-bottom-color: #2a2a2f;
+}
+
+/*加的微信扫码层end*/
+.footer .about .ab-wblink a .iconfont {
+    font-size: 20px;
+}
+.footer .contact-us {
+    color: #fff;
+    line-height: 20px;
+}
+.friendlinks {
+    background-color: #2a2a2f;
+    color: #a8a8af;
+    border-top: 1px solid #333333;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.friendlinks div.content {
+    color: #a8a8af;
+    margin: 20px 0 0px 0;
+    text-align: center;
+}
+.friendlinks a {
+    color: #a8a8af;
+}
+.friendlinks span {
+    padding: 0 8px;
+}
+.friendlinks div.content.mt10 {
+    margin-top: 5px;
+}
+
+/* footer 结束 */
+
+/*翻页*/
+.pagebox{margin:40px auto;font-size:14px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;overflow:hidden;}
+.pagebox a{display:block;color:#999;}
+.pagebox ul{display:table;margin:0 auto;}
+.pagebox ul li{float:left;display:table-cell;margin-right:15px;}
+.pagebox ul li:last-child{margin-right:0;}
+.pagebox ul li a {
+    padding: 0 12px;
+    height: 34px;
+    background: #f5f5f5;
+    border: 1px #dcdcdc solid;
+    border-radius: 2px;
+    line-height: 34px;
+    text-align: center;
+}
+.pagebox ul li a:hover{cursor:pointer;background:#0489e8;color:#fff;border:1px solid #007ad1;}
+.pagebox ul li.current a{background:#0489e8;border:1px solid #007ad1;border-radius:2px;color:#fff;}
+.pagebox ul li:last-child a:hover{
+    background: #f5f5f5;
+    border: 1px #dcdcdc solid;
+    cursor:default;
+    color: #999;
+}
+
+.goods-list{
+    font-size: 0;
+    margin:0 -10px;
+}
+.goods-list>div{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.default-page-box {
+     text-align: center;
+     padding-top: 100px;
+}
+.default-page-box .defaultTxt{
+    font-size: 16px;
+    line-height: 40px;
+    margin:20px auto;
+    color:#ccc;
+}
+.default-page-box a{
+    display: inline-block;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 0  16px;
+    height:30px;
+    line-height: 30px;
+}

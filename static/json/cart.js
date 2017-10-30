@@ -1,0 +1,80 @@
+{
+    "result": [
+        {
+            "courseId": 777511, 
+            "courseName": "企业票据检查重点与规范管理", 
+            "coursePrice": 269, 
+            "courseUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/6/21/20160902130649_462.jpg", 
+            "createTime": "2017-07-06 09:54:29", 
+            "discountPrice": 269, 
+            "id": 145, 
+            "isDiscount": 0, 
+            "orgId": 7, 
+            "orgName": "汉唐乐上（北京）科技有限责任公司", 
+            "teacherId": 70008899, 
+            "teacherName": "刘海军", 
+            "userId": 229
+        }, 
+        {
+            "courseId": 108, 
+            "courseName": "3D打印初级课程", 
+            "coursePrice": 580, 
+            "courseUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/3/7/02e3c270-62c2-4174-b35b-f9759373b4a2.jpg", 
+            "createTime": "2017-09-19 13:35:37", 
+            "discountPrice": 580, 
+            "id": 169, 
+            "isDiscount": 0, 
+            "orgId": 12, 
+            "orgName": "武汉万凌教育投资有限公司", 
+            "teacherId": 277, 
+            "teacherName": "杨艳", 
+            "userId": 229
+        }, 
+        {
+            "courseId": 800316, 
+            "courseName": "小白学炒股：财富管理扫盲帖（1298元购套课）", 
+            "coursePrice": 1298, 
+            "courseUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/7/20/e5d3714d-12ca-47cc-b06f-06cf065bf4e4.jpg", 
+            "createTime": "2017-10-20 15:46:50", 
+            "discountPrice": 1298, 
+            "id": 170, 
+            "isDiscount": 0, 
+            "orgId": 18, 
+            "orgName": "秀财网", 
+            "teacherId": 121013598, 
+            "teacherName": "Harvey", 
+            "userId": 229
+        }, 
+        {
+            "courseId": 800325, 
+            "courseName": "应收账款的税收风险识别与应对（365元购50门组合课）", 
+            "coursePrice": 365, 
+            "courseUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/7/21/8a92a592-c9f4-458d-9b36-0270444bba2e.jpg", 
+            "createTime": "2017-08-30 15:42:07", 
+            "discountPrice": 365, 
+            "id": 168, 
+            "isDiscount": 0, 
+            "orgId": 18, 
+            "orgName": "秀财网", 
+            "teacherId": 121012634, 
+            "teacherName": "税海扬帆", 
+            "userId": 229
+        }, 
+        {
+            "courseId": 800319, 
+            "courseName": "金蝶财务软件——新建账套及账套初始化设置（1299元购套课）", 
+            "coursePrice": 1299, 
+            "courseUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/7/20/bad4793d-ed5f-4c36-9a2d-0cf4068bb3e1.jpg", 
+            "createTime": "2017-08-11 14:31:55", 
+            "discountPrice": 1299, 
+            "id": 165, 
+            "isDiscount": 0, 
+            "orgId": 18, 
+            "orgName": "秀财网", 
+            "teacherId": 121013601, 
+            "teacherName": "冯老师", 
+            "userId": 229
+        }
+    ], 
+    "status": 0
+}

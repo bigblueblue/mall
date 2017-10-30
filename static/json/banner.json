@@ -1,0 +1,57 @@
+{
+    "result": {
+        "bannerList": [
+            {
+                "bannerLink": "{\"type\":\"1\",\"httpurl\":\"http://activity.zhijiaoyuan.com.cn/\"}", 
+                "bannerUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/6/30/c74e3fe8-27c3-402a-8099-f2015a17c899.jpg", 
+                "createTime": "2017-06-30 11:31:21", 
+                "id": 35, 
+                "sort": 9, 
+                "status": 0, 
+                "title": "暑期多校联合在线知识竞赛", 
+                "type": 0
+            }, 
+            {
+                "bannerLink": "{\"type\":\"2\",\"course_id\":\"150\"}", 
+                "bannerUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/6/15/4ec40717-9b9f-4cf6-98d7-f852a10877be.jpg", 
+                "createTime": "2017-06-15 15:43:48", 
+                "id": 15, 
+                "sort": 8, 
+                "status": 0, 
+                "title": "自动变速器维修", 
+                "type": 0
+            }, 
+            {
+                "bannerLink": "{\"type\":\"2\",\"course_id\":\"113\"}", 
+                "bannerUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/6/15/2888ef0d-13c9-4343-ba27-bd1f1c935460.jpg", 
+                "createTime": "2017-06-15 15:42:14", 
+                "id": 12, 
+                "sort": 3, 
+                "status": 0, 
+                "title": "培养有责任感的孩子", 
+                "type": 0
+            }, 
+            {
+                "bannerLink": "{\"type\":\"2\",\"course_id\":\"135\"}", 
+                "bannerUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/6/15/3b15db86-7209-4082-8464-f2db060714b0.jpg", 
+                "createTime": "2017-06-15 15:42:44", 
+                "id": 13, 
+                "sort": 0, 
+                "status": 0, 
+                "title": "四轮定位在底盘维修中的应用(1)", 
+                "type": 0
+            }, 
+            {
+                "bannerLink": "{\"type\":\"2\",\"course_id\":\"108\"}", 
+                "bannerUrl": "http://www.zhijiaoyuan.com.cn/uploads/b_images/2017/6/15/6b0fe123-dd7a-40a4-b415-17d85f5e6026.jpg", 
+                "createTime": "2017-06-15 15:43:30", 
+                "id": 14, 
+                "sort": 0, 
+                "status": 0, 
+                "title": "3D打印初级课程", 
+                "type": 0
+            }
+        ]
+    },
+    "status": 0
+}
